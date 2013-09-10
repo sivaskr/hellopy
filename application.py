@@ -1,3 +1,5 @@
+# A simple hello world app to test Flask and AWS Elastic Beanstalk integration.
+
 import flask
 application = flask.Flask(__name__)
 
