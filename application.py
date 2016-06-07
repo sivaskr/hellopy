@@ -6,7 +6,7 @@ application = flask.Flask(__name__)
 
 @application.route('/')
 def hello():
-    return 'Hello, World! This is sample Python Web Application'
+    return 'Hello, World! This is sample Python Web Application new'
 
 
 if __name__ == '__main__':
