@@ -3,9 +3,9 @@
 import flask
 application = flask.Flask(__name__)
 
-
 @application.route('/')
 def hello():
-    return 'Hello, World! This is New sample Python Web Application'
+ return 'Hello, World! This is sample Python Web Applicationnew'
+
 if __name__ == '__main__':
-    application.run(host='0.0.0.0',debug=True)
+ application.run(host='0.0.0.0',debug=True)
